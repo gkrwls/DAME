@@ -24,6 +24,12 @@ $(function () {
 
 	$('.slides-next').on('click', function (evt) {
 		evt.preventDefault();
+		setTimeout(
+			$('.slides-next').on('click', function (evt) {
+				evt.trigger();
+			}),
+			3000
+		);
 
 		/*
         nowIdx 값이 0->1, 1->2, 2->0 설정되어야 한다.
