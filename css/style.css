@@ -404,25 +404,30 @@
   display: block;
   position: absolute;
   top: 50%;
-  width: 80px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
   text-indent: -9999px;
-  background-image: url(./../images/btn_navigation.png);
+  background-color: rgba(0, 0, 0, 0.1);
   transform: translate(0, -50%);
 }
 #wrap > section > .guitar-slides > .guitar-slides-navigation.slides-prev {
   left: 10px;
-  background-position: -5px -225px;
+  background-position: center center;
+  background-image: url(./../images/prev.png);
+  background-repeat: no-repeat;
 }
 #wrap > section > .guitar-slides > .guitar-slides-navigation.slides-prev:hover {
-  background-position: -5px -335px;
+  opacity: 1.2;
 }
 #wrap > section > .guitar-slides > .guitar-slides-navigation.slides-next {
   right: 10px;
-  background-position: -5px -5px;
+  background-position: center center;
+  background-image: url(./../images/next.png);
+  background-repeat: no-repeat;
 }
 #wrap > section > .guitar-slides > .guitar-slides-navigation.slides-next:hover {
-  background-position: -5px -115px;
+  opacity: 1.2;
 }
 #wrap > section > .notice {
   display: flex;
@@ -571,7 +576,6 @@
   cursor: pointer;
 }
 #wrap > section > .better-world > .better-world-info > .more > p:hover > a {
-  background-color: #c7232a;
   width: 145px;
 }
 #wrap > section > .better-world > .better-world-info > .more > p > a {
@@ -583,7 +587,8 @@
   width: 0;
   height: 35px;
   color: #fff;
-  transition: all 0.5s ease-out;
+  background-color: #c7232a;
+  transition: all 0.25s ease-out;
 }
 #wrap > section > .movieandpeople {
   width: 1250px;
@@ -628,7 +633,7 @@
   width: 29px;
   height: 51px;
   text-indent: -9999px;
-  background-image: url(./../images/prev.png);
+  background-image: url(./../images/M-prev.png);
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -702,7 +707,7 @@
   width: 29px;
   height: 51px;
   text-indent: -9999px;
-  background-image: url(./../images/next.png);
+  background-image: url(./../images/M-next.png);
   background-repeat: no-repeat;
   cursor: pointer;
 }
