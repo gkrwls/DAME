@@ -239,33 +239,51 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 35%;
+  left: 60%;
   top: 60px;
-  width: 50%;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days7:hover > p > a {
+  color: #c7232a;
 }
 #wrap > header > nav > ul > li > .menu-7 > .days7 > p {
   margin-bottom: 25px;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days7 > p > a {
+  transition: all 0.4s;
 }
 #wrap > header > nav > ul > li > .menu-7 > .days7 > a {
   display: flex;
   flex-direction: column;
   line-height: 2;
+  transition: all 0.4s;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days7 > a:hover {
+  color: #c7232a;
 }
 #wrap > header > nav > ul > li > .menu-7 > .days50 {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 55%;
+  left: 75%;
   top: 60px;
-  width: 50%;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days50:hover > p > a {
+  color: #c7232a;
 }
 #wrap > header > nav > ul > li > .menu-7 > .days50 > p {
   margin-bottom: 25px;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days50 > p > a {
+  transition: all 0.4s;
 }
 #wrap > header > nav > ul > li > .menu-7 > .days50 > a {
   display: flex;
   flex-direction: column;
   line-height: 2;
+  transition: all 0.4s;
+}
+#wrap > header > nav > ul > li > .menu-7 > .days50 > a:hover {
+  color: #c7232a;
 }
 #wrap > header > nav > ul > li > .menu-1,
 #wrap > header > nav > ul > li .menu-2,

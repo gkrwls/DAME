@@ -102,8 +102,8 @@ $(function () {
 				nowIdx = 0;
 			}
 
-			$container.stop().animate({ left: '-100%' }, 400, 'easeInOutCubic', function () {
-				$indicator.first().appendTo($container); //마지막 자식으로 li를 이동
+			$container.stop().animate({ left: '-100%' }, 400, function () {
+				$container.append($indicator.first());
 				$container.css({ left: 0 });
 				aniChk = !aniChk;
 			});
@@ -126,7 +126,8 @@ $(function () {
 
 			$indicator.last().prependTo($container);
 			$container.css({ left: '-100%' });
-			$container.stop().animate({ left: 0 }, 400, 'easeInOutCubic', function () {
+
+			$container.stop().animate({ left: 0 }, 400, function () {
 				aniChk = !aniChk;
 			});
 

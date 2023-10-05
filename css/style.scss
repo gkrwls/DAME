@@ -277,7 +277,6 @@ $notPc: 'screen and (max-width:1500px)';
 							}
 						}
 					}
-					///////////////////////////////메뉴 리스트 수정 PRODUCT, LESSON/////////////////////////////
 					> .menu-7 {
 						display: flex;
 						position: relative;
@@ -289,18 +288,34 @@ $notPc: 'screen and (max-width:1500px)';
 							display: flex;
 							flex-direction: column;
 							position: absolute;
-							left: 35%;
+							left: 60%;
 							top: 60px;
-							width: 50%;
+
+							&:hover {
+								> p {
+									> a {
+										color: $pri-color-1;
+									}
+								}
+							}
 
 							> p {
 								margin-bottom: 25px;
+
+								> a {
+									transition: all 0.4s;
+								}
 							}
 
 							> a {
 								display: flex;
 								flex-direction: column;
 								line-height: 2;
+								transition: all 0.4s;
+
+								&:hover {
+									color: $pri-color-1;
+								}
 							}
 						}
 
@@ -308,18 +323,34 @@ $notPc: 'screen and (max-width:1500px)';
 							display: flex;
 							flex-direction: column;
 							position: absolute;
-							left: 55%;
+							left: 75%;
 							top: 60px;
-							width: 50%;
+
+							&:hover {
+								> p {
+									> a {
+										color: $pri-color-1;
+									}
+								}
+							}
 
 							> p {
 								margin-bottom: 25px;
+
+								> a {
+									transition: all 0.4s;
+								}
 							}
 
 							> a {
 								display: flex;
 								flex-direction: column;
 								line-height: 2;
+								transition: all 0.4s;
+
+								&:hover {
+									color: $pri-color-1;
+								}
 							}
 						}
 					}
