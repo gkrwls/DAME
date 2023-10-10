@@ -774,14 +774,15 @@ $notPc: 'screen and (max-width:1500px)';
 					cursor: pointer;
 				} //end of .prev
 
-				> .movie {
+				> .slides-container {
 					display: flex;
 					align-items: center;
 					position: relative;
 					left: 0;
+					width: 200%;
 					margin: 40px 0 100px;
 
-					> .list1 {
+					> .banner_1 {
 						display: flex;
 						justify-content: center;
 						position: relative;
@@ -814,7 +815,7 @@ $notPc: 'screen and (max-width:1500px)';
 						}
 					} //end of .list1
 
-					> .list2 {
+					> .banner_2 {
 						display: flex;
 						justify-content: center;
 						position: relative;
