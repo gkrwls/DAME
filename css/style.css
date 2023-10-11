@@ -379,22 +379,22 @@
   height: 550px;
   text-indent: -9999px;
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(1) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num1 {
   background-image: url(./../images/guitar-1.jpg);
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(2) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num2 {
   background-image: url(./../images/guitar-2.jpg);
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(3) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num3 {
   background-image: url(./../images/guitar-3.jpg);
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(4) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num4 {
   background-image: url(./../images/guitar-4.jpg);
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(5) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num5 {
   background-image: url(./../images/guitar-5.jpg);
 }
-#wrap > section > .guitar-slides > .guitar-slides-container > li:nth-child(6) {
+#wrap > section > .guitar-slides > .guitar-slides-container > .num6 {
   background-image: url(./../images/guitar-6.jpg);
 }
 #wrap > section > .guitar-slides > .guitar-slides-pagination {

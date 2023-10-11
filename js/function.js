@@ -64,14 +64,14 @@ $(function () {
 			if (nowIdx > 0) {
 				nowIdx--;
 			} else {
-				nowIdx = 3;
+				nowIdx = 5;
 			}
 
 			const $slides = $('.guitar-slides-container>li');
 			$slides.last().prependTo($container);
-			$container.css({ left: '100%' });
+			$container.css({ left: '-100%' });
 
-			$container.stop().animate({ left: '0%' }, 400, function () {
+			$container.stop().animate({ left: 0 }, 400, function () {
 				aniChk = !aniChk;
 			});
 
